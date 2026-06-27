@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon src/config/server.js",
     "seed-movies": "node prisma/seed.js",
+    "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
